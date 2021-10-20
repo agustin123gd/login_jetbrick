@@ -1,0 +1,18 @@
+<html>
+  <body>
+    <p>Bienvenido profesor aqui esta tu lista de alumnos</p>
+    #if (u.email == "uriel@uriel.com")
+      <p>Hugo Sanchez</p>
+      <p>Luis Donaldo Colosio</p>
+      <p>Pedro Ortiz</p>
+    #elseif (u.email == "agustin@agustin.com")
+      <p>Sergio de Jesus</p>
+      <p>Gerardo Vasquez</p>
+      <p>Pablo Ortiz</p>
+    #elseif (u.email == "irving@irving.com")
+      <p>Luis Zapata</p>
+      <p>Jazmin Gomes</p>
+      <p>Carlos Alberto</p>
+    #end
+  </body>
+</html>
